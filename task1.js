@@ -1,9 +1,7 @@
-const name = 'my name is md abdul alim';
-const name2 = 'my name is md abdul alim  ';
-if (name === name2) {
-  console.log("i am a briilant sutudent s");
+const colors = {
+    red: "#ff0000",
+    green: "#00ff00",
+    blue: "#0000ff",
+    "golden rod": '#daa520'
 }
-else {
-  console.log("i am a bad student");
-}
-
+console.log(colors["golden rod"]); // #daa520
