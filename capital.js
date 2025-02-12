@@ -1,4 +1,5 @@
-let sentrnce="thr name of the game id to win";  
+
+let sentence = "the name of the game is ground floor to win"; // Fixed the typo here
 let sentenceArr = sentence.split(" ");
 let newSentence = [];
 
@@ -8,3 +9,5 @@ for (let word of sentenceArr) {
 }
 
 console.log(newSentence.join(" "));
+
+
